@@ -1,3 +1,6 @@
+body{
+    background: mediumseagreen;
+}
 .cell{
 	display: inline-block;
 	background-color: green;
@@ -21,7 +24,10 @@
 
 }
 
-#board{background-color: darkslategrey}
+#board{
+   background-color: darkslategrey;
+   border:darkslategrey;
+}
 
 #redWin{
     color: red;
@@ -36,3 +42,8 @@
 #c4{
     text-align: center;
 }
+.btn-default{
+    background-color: mediumseagreen;
+    margin:5px;
+}
+
